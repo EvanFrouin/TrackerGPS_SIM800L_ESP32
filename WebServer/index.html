@@ -22,12 +22,13 @@
     <script>
       var map;
         var x;
+        var y;
         function loadmaps(){
             $.getJSON("https://api.thingspeak.com/channels/Thingspeak_channel_id/fields/1/last.json?api_key=Your_thingspeak_read_api_key", function(result){
         	
             var m = result;
             x=Number(m.field1);
-                           //alert(x);
+
         });
             $.getJSON("https://api.thingspeak.com/channels/Thingspeak_channel_id/fields/2/last.json?api_key=Your_thingspeak_read_api_key", function(result){
         	
