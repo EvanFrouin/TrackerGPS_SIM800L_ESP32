@@ -6,6 +6,6 @@ Projet Tracker GPS avec
 1xTTGO ESP32-SIM800L
 1xServeur Web (sur rpi par exemple)
 
-Theo FIEBER
 Evan FROUIN
-Thomas MATHIEN
+
+Merci à Théo Fieber (@Fienberber) pour son aide
